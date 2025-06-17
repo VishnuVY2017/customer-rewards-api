@@ -1,7 +1,6 @@
 package com.charter.customer.service;
 
 
-import com.charter.customer.CustomerRewardsApplication;
 import com.charter.customer.entity.Customer;
 import com.charter.customer.entity.Transaction;
 import com.charter.customer.repository.CustomerRepository;

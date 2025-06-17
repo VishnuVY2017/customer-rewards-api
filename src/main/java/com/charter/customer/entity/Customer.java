@@ -2,11 +2,12 @@ package com.charter.customer.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import lombok.*;
+import lombok.Data;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
-import java.util.*;
+import java.util.Collections;
+import java.util.Set;
 
 @Entity
 @Table(name = "CUSTOMER")
