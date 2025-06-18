@@ -76,7 +76,7 @@ public class CustomerRewardsService {
 
     }
 
-    public LocalDateTime convertToLocalDateTimeViaInstant(Date dateToConvert) {
+    private LocalDateTime convertToLocalDateTimeViaInstant(Date dateToConvert) {
         return dateToConvert.toInstant()
                 .atZone(ZoneId.systemDefault())
                 .toLocalDateTime();

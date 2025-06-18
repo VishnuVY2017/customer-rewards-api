@@ -34,6 +34,15 @@ public class Customer {
     @Transient
     private Double totalAmount;
 
+    public Customer(){}
+    public Customer(Long cid, String name, Set<Transaction> transactions, Long rewardPoints, Double totalAmount) {
+        this.cid = cid;
+        this.name = name;
+        this.transactions = transactions;
+        this.rewardPoints = rewardPoints;
+        this.totalAmount = totalAmount;
+    }
+
     public Long getCid() {
         return cid;
     }
