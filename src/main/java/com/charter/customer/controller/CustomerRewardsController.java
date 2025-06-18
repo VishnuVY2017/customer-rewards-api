@@ -13,7 +13,7 @@ import javax.validation.constraints.NotNull;
 import java.util.List;
 
 @RestController
-@RequestMapping("/customer")
+@RequestMapping("/rewards")
 public class CustomerRewardsController {
 
     @Autowired

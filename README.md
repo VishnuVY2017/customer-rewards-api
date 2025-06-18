@@ -2,7 +2,7 @@
 
 ## Add Customer
 ```
-localhost:8181/customer
+localhost:8181/rewards
 
 Body
 ----
@@ -43,7 +43,7 @@ Response
 
 ## Display all customer data with Transaction
 ```
-localhost:8181/customer/
+localhost:8181/rewards
 
 Response
 --------
@@ -105,7 +105,7 @@ Response
 ## Filter Data based on last 3 months
 
 ```
-localhost:8181/customer/2/month/3
+localhost:8181/rewards/2/month/3
 Response
 -------
 {
